@@ -1,0 +1,25 @@
+.imagen{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.imagen img{
+    border: solid 3px rgb(255, 247, 0);
+    border-radius: 15px 15px 15px 15px;
+}
+
+ion-content {
+    background: linear-gradient(to bottom, #ffffff, #000000);
+    min-height: 100vh;
+    --padding-start: 0;
+    --padding-end: 0;
+}
+
+  .custom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Para que ocupe toda la altura de la página */
+    width: auto;              /* Previene que el botón se estire horizontalmente */
+    max-width: none;
+  }

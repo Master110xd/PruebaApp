@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Altura completa de la pantalla */
+  }
+  
+  ion-item {
+    display: flex;
+    justify-content: center; /* Alinea los botones horizontalmente */
+  }
+  
+  .custom-button {
+    width: 150px;  /* Ancho de los botones */
+    height: 60px;  /* Altura de los botones */
+    font-size: 18px; /* Tamaño del texto */
+    padding: 10px 20px; /* Espaciado interno para agrandar los botones */
+    --border-radius: 10px; /* Bordes redondeados */
+  }
+  
+  ion-title {
+    margin-bottom: 50px; /* Espacio amplio entre el título y los botones */
+  }
+
+  .imagen {
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Centra la imagen verticalmente */
+    height: 100vh; /* La altura de la pantalla completa */
+    margin-top: 0; /* Quita el margen superior */
+}
+
+.imagen img {
+    width: 300px;  /* Cambia el tamaño de la imagen */
+    height: auto;  /* Mantiene la proporción de la imagen */
+}

@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title style="text-align: center;">Inicio de Sesion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div>
+    <h1 style="text-align: center;">Escoger tipo de usuario</h1>
+  </div>
+  <div class="imagen">
+    <img src="../../../assets/img/elegirPlaceHoldeer.jpg" alt="">
+  </div>
+  <div class="container">
+    <ion-list>
+      <ion-item lines="none">
+        <ion-button class="custom-button" (click)="alumno()">Alumno</ion-button> 
+        <ion-button class="custom-button" (click)="docente()">Docente</ion-button>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

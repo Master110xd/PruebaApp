@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      RegistrApp
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <h1 id="horaActual">
+    Bienvenido, {{usuario}} {{horaActual}}
+  </h1>
+  <div>
+    <ion-item> <ion-button class="custom-button" (click)="validar()">Cerrar Sesión</ion-button></ion-item>
+  </div>
+  <div>
+    <ion-item> <ion-button class="custom-button" (click)="escanear()">Escanear Codigo QR</ion-button></ion-item>
+  </div>
+</ion-content>

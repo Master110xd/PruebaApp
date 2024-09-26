@@ -1,0 +1,12 @@
+.imagen {
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Centra la imagen verticalmente */
+    height: 100vh; /* La altura de la pantalla completa */
+    margin-top: 0; /* Quita el margen superior */
+}
+
+.imagen img {
+    width: 300px;  /* Cambia el tamaño de la imagen */
+    height: auto;  /* Mantiene la proporción de la imagen */
+}

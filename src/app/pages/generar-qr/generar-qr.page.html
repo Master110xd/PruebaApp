@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Generando QR..</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div>
+  <h1 id="horaActual" style="text-align: center;">Clases día {{horaActual}}</h1>
+  </div>
+  <div class="imagen"><img src="../../../assets/img/codigoQRplaceholder.png" alt=""></div>
+  <div>
+    <ion-item><ion-button class="custom-button" (click)="finalizar()">Cerrar Asistencia</ion-button></ion-item>
+  </div>
+</ion-content>
